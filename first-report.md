@@ -22,7 +22,7 @@ We will also be using the WiC dataset [11] that is based on three lexical resour
 
 # References
 
-[1] Nancy Ide and Jean Véronis. 1998. [Introduction to the Special Issue on Word Sense Disambiguation: The State of the Art](https://aclanthology.org/J98-1001). *Computational Linguistics*, 24(1):1–40.
+[1] Nancy Ide and Jean Véronis. 1998. [Introduction to the Special Issue on Word Sense Disambiguation: The State of the Art](https://aclanthology.org/J98-1001). In *Computational Linguistics*, 24(1), pages 1–40. Cambridge, MIT Press.
 
 [2] Eneko Agirre and Philip Edmonds. 2007.  *Word Sense Disambiguation. Algorithms and Applications*. Dordrecht, Netherlands. Springer.
 
