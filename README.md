@@ -6,5 +6,5 @@ Team members:
  * `Meta Kokalj`, `18223315`, `mk10260@student.uni-lj.si`
  * `Nives Hüll`, `18223292`, `nh23084@student.uni-lj.si`
 
-Group public acronym/name: `THINK OF PUBLIC STRING FOR YOUR GROUP`
+Group public acronym/name: `SWEAT` (**S**lovene **W**ord s**E**nse dis**A**mbigua**T**ion)
  > This value will be used for publishing marks/scores. It will be known only to you and not you colleagues.
