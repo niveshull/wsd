@@ -22,24 +22,24 @@ We will also be using the WiC dataset [11] that is based on three lexical resour
 
 # References
 
-[1] Nancy Ide and Jean Véronis. 1998. Introduction to the Special Issue on Word Sense Disambiguation: The State of the Art. Computational Linguistics, 24(1):1–40.
+[1] Nancy Ide and Jean Véronis. 1998. Introduction to the Special Issue on Word Sense Disambiguation: The State of the Art. *Computational Linguistics*, 24(1):1–40.
 
-[2] Eneko Agirre and Philip Edmonds. 2007.  Word Sense Disambiguation. Algorithms and Applications. Dordrecht, Netherlands. Springer.
+[2] Eneko Agirre and Philip Edmonds. 2007.  *Word Sense Disambiguation. Algorithms and Applications*. Dordrecht, Netherlands. Springer.
 
-[3] Cruse, A. (2000). Meaning in Language: An Introduction to Semantics and Pragmatics. New York: Oxford University Press.
+[3] Alan Cruse. *Meaning in Language: An Introduction to Semantics and Pragmatics*. New York: Oxford University Press.
 
-[4] Resmiyati Restu. 2017. The Distinction between Polysemy and Homonym on lexical Ambiguity. Universitas Indraprasta PGRI.
+[4] Resmiyati Restu. 2017. *The Distinction between Polysemy and Homonym on lexical Ambiguity*. Universitas Indraprasta PGRI.
 
-[5] Yee Seng Chan and Hwee Tou Ng. 2007. Domain Adaptation with Active Learning for Word Sense Disambiguation. In Proceedings of the 45th Annual Meeting of the Association for Computational Linguistics, pages 49-56. Prague, Czech Republic. Association for Computational Linguistics (ACL).
+[5] Yee Seng Chan and Hwee Tou Ng. 2007. Domain Adaptation with Active Learning for Word Sense Disambiguation. In *Proceedings of the 45th Annual Meeting of the Association for Computational Linguistics*, pages 49-56. Prague, Czech Republic. Association for Computational Linguistics (ACL).
 
-[6] Harsh Maheshwari. 2021. Understanding Domain Adaptation. Medium. Retrieved from https://towardsdatascience.com/understanding-domain-adaptation-5baa723ac71f (17. 3. 2023).
+[6] Harsh Maheshwari. 2021. *Understanding Domain Adaptation*. Medium. Retrieved from https://towardsdatascience.com/understanding-domain-adaptation-5baa723ac71f (17. 3. 2023).
 
-[7] Krishnanjan Bhattacharjee, Shiva Karthik S, Swati Mehta, and Ajai Kumar. 2020. Survey and Gap Analysis of Word Sense Disambiguation Approaches on Unstructured Texts. In Proceedings of the International Conference on Electronics and Sustainable Communication Systems (ICESC 2020), pages 323-327. Coimbatore, India. IEEE Organization.
+[7] Krishnanjan Bhattacharjee et al. 2020. Survey and Gap Analysis of Word Sense Disambiguation Approaches on Unstructured Texts. In *Proceedings of the International Conference on Electronics and Sustainable Communication Systems (ICESC 2020)*, pages 323-327. Coimbatore, India. IEEE Organization.
 
-[8] Slavko Žitnik et al. 2022. SloWSD. GitHub. https://github.com/RSDO-DS3/SloWSD
+[8] Slavko Žitnik et al. 2022. *SloWSD*. GitHub. Retrieved from https://github.com/RSDO-DS3/SloWSD (17. 3. 2023).
 
-[9] Federico Martelli et al. 2021. Designing the ELEXIS Parallel Sense-Annotated Dataset in 10 European Languages. In eLex 2021 Proceedings, eLex Conference. Proceedings. Lexical Computing CZ.
+[9] Federico Martelli et al. 2021. Designing the ELEXIS Parallel Sense-Annotated Dataset in 10 European Languages. *In eLex 2021 Proceedings, eLex Conference*. Proceedings. Lexical Computing CZ.
 
-[10] Kaja Dobrovoljc, Tomaž Erjavec, and Simon Krek. 2017. The Universal Dependencies Treebank for Slovenian. In Proceedings of the 6th Workshop on Balto-Slavic Natural Language Processing, pages 33–38, Valencia, Spain. Association for Computational Linguistics.
+[10] Kaja Dobrovoljc, Tomaž Erjavec, and Simon Krek. 2017. The Universal Dependencies Treebank for Slovenian. In *Proceedings of the 6th Workshop on Balto-Slavic Natural Language Processing*, pages 33–38, Valencia, Spain. Association for Computational Linguistics.
 
-[11] Mohammad Taher Pilehvar and Jose Camacho-Collados. 2019. WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 1267–1273, Minneapolis, Minnesota. Association for Computational Linguistics.
+[11] Mohammad Taher Pilehvar and Jose Camacho-Collados. 2019. WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations. In *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)*, pages 1267–1273, Minneapolis, Minnesota. Association for Computational Linguistics.
