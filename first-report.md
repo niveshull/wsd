@@ -22,7 +22,7 @@ We will also be using the WiC dataset [11] that is based on three lexical resour
 
 # References
 
-[1] Nancy Ide and Jean Véronis. 1998. Introduction to the Special Issue on Word Sense Disambiguation: The State of the Art. *Computational Linguistics*, 24(1):1–40.
+[1] Nancy Ide and Jean Véronis. 1998. [Introduction to the Special Issue on Word Sense Disambiguation: The State of the Art](https://aclanthology.org/J98-1001). *Computational Linguistics*, 24(1):1–40.
 
 [2] Eneko Agirre and Philip Edmonds. 2007.  *Word Sense Disambiguation. Algorithms and Applications*. Dordrecht, Netherlands. Springer.
 
@@ -38,8 +38,8 @@ We will also be using the WiC dataset [11] that is based on three lexical resour
 
 [8] Slavko Žitnik et al. 2022. *SloWSD*. GitHub. Retrieved from https://github.com/RSDO-DS3/SloWSD (17. 3. 2023).
 
-[9] Federico Martelli et al. 2021. Designing the ELEXIS Parallel Sense-Annotated Dataset in 10 European Languages. *In eLex 2021 Proceedings, eLex Conference*. Proceedings. Lexical Computing CZ.
+[9] Federico Martelli et al. 2021. [Designing the ELEXIS Parallel Sense-Annotated Dataset in 10 European Languages](https://elex.link/elex2021/). In *eLex 2021 Proceedings, eLex Conference*. Proceedings. Lexical Computing CZ.
 
-[10] Kaja Dobrovoljc, Tomaž Erjavec, and Simon Krek. 2017. The Universal Dependencies Treebank for Slovenian. In *Proceedings of the 6th Workshop on Balto-Slavic Natural Language Processing*, pages 33–38, Valencia, Spain. Association for Computational Linguistics.
+[10] Kaja Dobrovoljc, Tomaž Erjavec, and Simon Krek. 2017. [The Universal Dependencies Treebank for Slovenian](https://aclanthology.org/W17-1406). In *Proceedings of the 6th Workshop on Balto-Slavic Natural Language Processing*, pages 33–38, Valencia, Spain. Association for Computational Linguistics.
 
-[11] Mohammad Taher Pilehvar and Jose Camacho-Collados. 2019. WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations. In *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)*, pages 1267–1273, Minneapolis, Minnesota. Association for Computational Linguistics.
+[11] Mohammad Taher Pilehvar and Jose Camacho-Collados. 2019. [WiC: the Word-in-Context Dataset for Evaluating Context-Sensitive Meaning Representations](https://aclanthology.org/N19-1128). In *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)*, pages 1267–1273, Minneapolis, Minnesota. Association for Computational Linguistics.
