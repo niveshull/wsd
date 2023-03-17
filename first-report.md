@@ -26,7 +26,7 @@ We will also be using the WiC dataset [11] that is based on three lexical resour
 
 [2] Eneko Agirre and Philip Edmonds. 2007.  *Word Sense Disambiguation. Algorithms and Applications*. Dordrecht, Netherlands. Springer.
 
-[3] Alan Cruse. *Meaning in Language: An Introduction to Semantics and Pragmatics*. New York: Oxford University Press.
+[3] Alan Cruse. *Meaning in Language: An Introduction to Semantics and Pragmatics*. New York. Oxford University Press.
 
 [4] Resmiyati Restu. 2017. *The Distinction between Polysemy and Homonym on lexical Ambiguity*. Universitas Indraprasta PGRI.
 
