@@ -7,16 +7,15 @@ nlp=classla.Pipeline(lang="sl")
 # Get input word from user
 word = input("Enter a word: ")
 
-doc = nlp(word)
+d = nlp(word)
 
 lemma_dict = {}
-for token in doc:
-    lemma = token.lemma
-    word_form = token.text
-    if lemma not in lemma_dict:
-        lemma_dict[lemma] = [word_form]
-    else:
-        lemma_dict[lemma].append(word_form)
+lemma = d[1]
+word_form = d[0]
+if lemma not in lemma_dict:
+    lemma_dict[lemma] = [word_form]
+else:
+    lemma_dict[lemma].append(word_form)
 
 print(lemma_dict)
 
