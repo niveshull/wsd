@@ -1,4 +1,4 @@
-import classla
+import cla
 import csv
 
 # open the TSV file and read its contents
