@@ -1,10 +1,24 @@
 import classla
 #to je treba naredit samo prvič, ko uporabljaš
-classla.download("sl")
+#classla.download("sl")
 #nastavim pipeline (lahko določim, da so stavki recimo že tokenizirani ..., če ne določim nič, je pa defolt)
 nlp=classla.Pipeline(lang="sl")
 
-stavek="Delamo z besedami."
+# Get input word from user
+word = input("Enter a word: ")
+
+doc = nlp(word)
+
+lemma_dict = {}
+for token in doc:
+    lemma = token.lemma
+    word_form = token.text
+    if lemma not in lemma_dict:
+        lemma_dict[lemma] = [word_form]
+    else:
+        lemma_dict[lemma].append(word_form)
+
+print(lemma_dict)
 
 
 #osnovna oblika
