@@ -6,12 +6,13 @@ nlp=classla.Pipeline(lang="sl")
 
 stavek="Delamo z besedami."
 
+
 #osnovna oblika
-docx=nlp(stavek)
+"""docx=nlp(stavek)
 
 #lažje dostopam do info v obliki dictionaryja
 dictx=docx.to_dict()
-print(docx.to_conll())
+print(docx.to_conll())"""
 
 
 '''
