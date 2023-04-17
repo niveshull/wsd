@@ -3,7 +3,7 @@
 V tem branchu se nahajajo programi za lažje iskanje lem po celotnem korpusu ccKres. Programa olajšata ročno dodeljevanje pomenov izbranim besedam.
 
 ## Uvod
-Za ekstrakcijo najbolj polisemnih lem v slovenskem jeziku smo uporabili [anotiran korpus ELEXIS-WSD 1.0](https://www.clarin.si/repository/xmlui/handle/11356/1674) in jih v predhodnih korakih izluščili s pomočjo programa za polisemne leme (polisemne.py). S tem programom smo dobili seznam polisemnih besed v formatu TXT, ki ga v tem koraku s programom zmanjsaj-inventar-polisemnih-besed.py zmanjšamo glede na predhodno dodeljene besede (30 na osebo, gl. [Google razpredelnico](https://docs.google.com/spreadsheets/d/1F0hoprEzzbHYJFxI0k7_1c-4_GlL_qnSmPxCgn-yDYk/edit). Ta korak posamezni osebi omogoča lažjo navigacijo po inventarju polisemnih besed, kar bo uporabno v fazi določanja posameznega pomena leme v neki povedi. 
+Za ekstrakcijo najbolj polisemnih lem v slovenskem jeziku smo uporabili [anotiran korpus ELEXIS-WSD 1.0](https://www.clarin.si/repository/xmlui/handle/11356/1674) in jih v predhodnih korakih izluščili s pomočjo programa za polisemne leme (polisemne.py). S tem programom smo dobili seznam polisemnih besed v formatu TXT, ki ga v tem koraku s programom zmanjsaj-inventar-polisemnih-besed.py zmanjšamo glede na predhodno dodeljene besede (30 na osebo, gl. [Google razpredelnico](https://docs.google.com/spreadsheets/d/1F0hoprEzzbHYJFxI0k7_1c-4_GlL_qnSmPxCgn-yDYk/edit)). Ta korak posamezni osebi omogoča lažjo navigacijo po inventarju polisemnih besed, kar bo uporabno v fazi določanja posameznega pomena leme v neki povedi. 
 
 ## Predhodne zahteve
 Za uporabo programov potrebujemo:
@@ -48,7 +48,7 @@ Znotraj tega brancha sta ustvarjena dva programa. Prvi zmanjša inventar polisem
 12. izpišejo se vsi stavki, ki vsebujejo poliseme, skupaj s podatki o njihovem odstavku in povedi
 
 ## Opomba
-Programa sta v vmesni, delovni fazi in nista še končna.
+Programa sta v fazi razvijanja in oblikovanja in nista še končna, ta readme dokument pa služi kot vmesno delovno poročilo za ostale člane skupine.
 
 
 ## Licenca
