@@ -33,7 +33,7 @@ Znotraj tega brancha sta ustvarjena dva programa. Prvi zmanjša inventar polisem
 2. odpremo svoje polisemne besede (datoteka TXT)
 3. program skrajša celoten seznam in ustvari izhodno datoteko z zmanjšanih inventarjem polisemnih lem (datoteka TSV)
 
-### xml-leme-vse-nives
+### xml-leme-vse-nives.py
 1. uvozimo knjižnice: xml.etree.ElementTree, os in csv
 2. odpremo svoje polisemne besede (datoteka TXT)
 3. ustvarimo prazen seznam stavki_s_polisemi
