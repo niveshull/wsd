@@ -26,7 +26,7 @@ import csv
 ```
 
 ## Uporaba programov
-Znotraj tega brancha sta ustvarjena dva programa. Prvi zmanjša inventar polisemnih lem, drugi pa najde povedi, v katerih se nahajajo polisemne leme. Za uporabo tega programa 
+Znotraj tega brancha sta ustvarjena dva programa. Prvi zmanjša inventar polisemnih lem, drugi pa najde povedi, v katerih se nahajajo polisemne leme.
 
 ### zmanjsaj-inventar-polisemnih-besed.py
 1. odpremo inventar polisemnih besed (datoteka TSV)
