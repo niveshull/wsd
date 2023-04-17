@@ -1,5 +1,6 @@
 # define the list of words to search for
-search_words = ['zaprt', 'zaprto', 'zaprta', 'zaprti', 'zaprte']
+search_words = ["zaprem", "zapreš", "zapre", "zapreva", "zapreta", "zapremo", "zaprete", "zaprejo", "zaprl", "zaprla", "zaprli",
+                "zaprle", "zaprlo", "zapreti", "zapirati"]
 
 # open the file for reading
 with open('ccKres_skupni.txt', 'r', encoding='utf-8') as f:
