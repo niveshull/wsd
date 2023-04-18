@@ -30,7 +30,7 @@ Znotraj tega brancha sta ustvarjena dva programa. Prvi zmanjša inventar polisem
 
 ### zmanjsaj-inventar-polisemnih-besed.py
 1. odpremo inventar polisemnih besed (datoteka TSV)
-2. odpremo svoje polisemne besede (datoteka TXT)
+2. odpremo svoje polisemne besede (datoteka TXT, vsaka beseda naj bo v svoji vrstici brez ločil)
 3. program skrajša celoten seznam in ustvari izhodno datoteko z zmanjšanih inventarjem polisemnih lem (datoteka TSV)
 
 ### xml-leme-vse-nives.py
