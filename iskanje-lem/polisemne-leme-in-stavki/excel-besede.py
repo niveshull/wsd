@@ -17,7 +17,7 @@ model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 all_sentences = defaultdict(list)
 
 #with open('/home/nives/Projekti/ONJ-p/seznam-polisemnih-nives-excel.csv', 'r') as input_file:
-with open('seznam-polisemnih-nives-excel.csv', 'r', encoding='utf-8') as input_file:
+with open('seznam-polisemnih-urejeno-nives.csv', 'r', encoding='utf-8') as input_file:
     csvreader = csv.reader(input_file, delimiter = ";")
     next(csvreader)
 

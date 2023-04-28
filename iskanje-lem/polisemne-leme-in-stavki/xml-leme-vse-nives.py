@@ -12,7 +12,8 @@ with open('seznam-polisemnih-nives.csv', 'w', newline='', encoding='utf-8-sig') 
     writer = csv.writer(csvfile)
     writer.writerow(['Stavek', 'Polisemna lema'])
 
-    input_directory = "/home/nives/Projekti/ONJ-p/ccKres_LEMATIZIRAN"
+   # input_directory = "/home/nives/Projekti/ONJ-p/ccKres_LEMATIZIRAN"
+    input_directory = "ccKres_LEMATIZIRAN"
     for filename in os.listdir(input_directory):
         if filename.endswith(".xml"):
             filepath = os.path.join(input_directory, filename)

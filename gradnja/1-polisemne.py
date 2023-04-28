@@ -2,7 +2,7 @@ import cla
 import csv
 
 # open the TSV file and read its contents
-with open('elexis-wsd-1.0/elexis-wsd-sl_sense-inventory.tsv', 'r', encoding='utf-8') as tsvfile:
+with open('../elexis-wsd-1.0/elexis-wsd-sl_sense-inventory.tsv', 'r', encoding='utf-8') as tsvfile:
     reader = csv.reader(tsvfile, delimiter='\t')
 
     # create an empty list to store the polysemous words
@@ -42,7 +42,7 @@ with open('elexis-wsd-1.0/elexis-wsd-sl_sense-inventory.tsv', 'r', encoding='utf
 
 
 # open the TSV file and read its contents
-with open('elexis-wsd-1.0/elexis-wsd-sl_sense-inventory.tsv', 'r', encoding='utf-8') as tsvfile:
+with open('../elexis-wsd-1.0/elexis-wsd-sl_sense-inventory.tsv', 'r', encoding='utf-8') as tsvfile:
     reader = csv.reader(tsvfile, delimiter='\t')
 
     # create an empty set to store the unique lemmas

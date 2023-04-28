@@ -2,8 +2,7 @@ import xml.etree.ElementTree as ET
 import os
 import csv
 
-polisemne = "polisemne_katarina.txt"
-with open(polisemne, 'r', encoding='utf-8') as f:
+with open('../zmanjsevanje-inventarja-polisemnih-lem/polisemne_katarina.txt', 'r', encoding='utf-8') as f:
     polysemous_lemmas = set([line.strip() for line in f.readlines()])
 
 stavki_s_polisemi = []
