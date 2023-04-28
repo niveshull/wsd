@@ -16,7 +16,7 @@ model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 
 all_sentences = defaultdict(list)
 
-#with open('/home/nives/Projekti/ONJ-p/seznam-polisemnih-nives-excel.csv', 'r') as input_file:
+# with open('/home/nives/Projekti/ONJ-p/seznam-polisemnih-nives-excel.csv', 'r') as input_file:
 with open('seznam-polisemnih-urejeno-nives.csv', 'r', encoding='utf-8') as input_file:
     csvreader = csv.reader(input_file, delimiter = ";")
     next(csvreader)
@@ -27,49 +27,50 @@ with open('seznam-polisemnih-urejeno-nives.csv', 'r', encoding='utf-8') as input
         for b in besede:
             all_sentences[b].append(stavek)
 
-print(all_sentences.keys())
-#print(all_sentences["agresiven"])
+# print(all_sentences.keys())
+# print(all_sentences["agresiven"])
 print("St. besed:", len(all_sentences.keys()))
 
 
 for beseda in all_sentences.keys():
-    print("TOLE ZDAJ JE ZA BESEDO:", beseda)
+    # print("TOLE ZDAJ JE ZA BESEDO:", beseda)
+    print(beseda)
     stavki = all_sentences[beseda]
     embeddings = model.encode(stavki)
 
-    #print(beseda)
-    #print(stavki[0])
-    #print(embeddings[0])
+    # print(beseda)
+    # print(stavki[0])
+    # print(embeddings[0])
 
     df = np.array(embeddings)
-    #print(df)
+    # print(df)
 
     # PCA
     sklearn_pca = PCA(n_components = 2) # Using PCA to remove cols which has less co-relation
     Y_sklearn = sklearn_pca.fit_transform(df) #fit_transform() is used to scale training data to learn parameters such as 
     # mean & variance of the features of training set and then these parameters are used to scale our testing data.
-    #print(Y_sklearn)
+    # print(Y_sklearn)
 
     plt.scatter(Y_sklearn[:, 0], Y_sklearn[:, 1], s=100)
     plt.title("Besede: " + beseda)
-    #plt.show()
+    # plt.show()
 
     # Clustering
     kmeans = KMeans(n_clusters=10)# Partition 'n' no. of observations into 'k' no. of clusters. 
     #fitted = kmeans.fit(df) # Fitting k-means model  to feature array
     fitted = kmeans.fit(Y_sklearn)
     predictions = kmeans.predict(Y_sklearn) # predicting clusters class '0' or '1' corresponding to 'n' no. of observations
-    #print(stavki[0], predictions[0])
+    # print(stavki[0], predictions[0])
 
     assert len(stavki) == len(predictions)
 
     plt.scatter(Y_sklearn[:, 0], Y_sklearn[:, 1], c=predictions, s=100)
     plt.title("Besede: " + beseda)
-    #plt.show()
+    # plt.show()
 
     # Find centroid
     centri = kmeans.cluster_centers_
-    #print(en_stavek_st)
+    # print(en_stavek_st)
 
     for i, c in enumerate(centri):
         min_dist = np.inf
@@ -87,6 +88,6 @@ for beseda in all_sentences.keys():
     
     
     
-    # Print resulting sentences
+    # print resulting sentences
     pass
 
