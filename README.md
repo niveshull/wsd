@@ -8,3 +8,5 @@ Team members:
 
 Group public acronym/name: `SWEAT` (**S**lovene **W**ord s**E**nse dis**A**mbigua**T**ion)
  > This value will be used for publishing marks/scores. It will be known only to you and not you colleagues.
+
+All programs and files used for the second submition of the project are in the branch *delo*.
