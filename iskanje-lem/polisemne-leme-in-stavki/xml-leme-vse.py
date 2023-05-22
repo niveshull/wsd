@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import os
 import csv
+import re
 
 with open('../zmanjsevanje-inventarja-polisemnih-lem/polisemne_besede.txt', 'r', encoding='utf-8') as f:
     polysemous_lemmas = set([line.strip() for line in f.readlines()])
@@ -48,6 +49,7 @@ with open('seznam-polisemnih.csv', 'w', newline='', encoding='utf-8-sig') as csv
                     if polisem_found:
                         num_words = len(stavek.split())
                         if 10 < num_words < 250:
+                            stavek = stavek.strip()
                             stavki_s_polisemi.append((odstavek_st, poved_st, stavek))
                             polisem_found_in_par = True
                             print(f"Stavek: {stavek}")
