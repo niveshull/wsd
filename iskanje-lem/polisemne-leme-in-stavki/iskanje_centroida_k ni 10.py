@@ -15,7 +15,7 @@ model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 
 all_sentences = defaultdict(list)
 
-with open('seznam-polisemnih-urejeno.csv', 'r', encoding='utf-8') as input_file:
+with open('iskanje-lem/polisemne-leme-in-stavki/seznam-polisemnih-urejeno.csv', 'r', encoding='utf-8') as input_file:
     csvreader = csv.reader(input_file, delimiter=";")
     next(csvreader)
 
@@ -25,7 +25,7 @@ with open('seznam-polisemnih-urejeno.csv', 'r', encoding='utf-8') as input_file:
         for b in besede:
             all_sentences[b].append(stavek)
 
-with open('centroidi_final.txt', 'w', encoding='utf-8') as output_file:
+with open('iskanje-lem/polisemne-leme-in-stavki/centroidi_final.txt', 'w', encoding='utf-8') as output_file:
     for beseda in all_sentences.keys():
         output_file.write("Beseda: {}\n".format(beseda))
         stavki = all_sentences[beseda]
