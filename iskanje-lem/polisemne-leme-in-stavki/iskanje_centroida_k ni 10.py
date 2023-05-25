@@ -25,7 +25,7 @@ with open('seznam-polisemnih-urejeno.csv', 'r', encoding='utf-8') as input_file:
         for b in besede:
             all_sentences[b].append(stavek)
 
-with open('centroidi_test.txt', 'w', encoding='utf-8') as output_file:
+with open('centroidi_final.txt', 'w', encoding='utf-8') as output_file:
     for beseda in all_sentences.keys():
         output_file.write("Beseda: {}\n".format(beseda))
         stavki = all_sentences[beseda]
