@@ -10,17 +10,23 @@ def create_wic_file(input_file, output_file):
         line = line.strip()
         if line.startswith('Beseda:'):
             pass
-        else:
+        elif ":" in line:
             cent, poved = line.split(":", 1)
-            group.append(poved)
+            group.append(poved.strip())
 
-    if group:
-        groups.append(group)
+        if not line or line == lines[-1]:
+            if group:
+                groups.append(group)
+            group = []
 
     with open(output_file, 'w', encoding='utf-8-sig') as f:
         for group in groups:
-            sentence1, sentence2 = random.sample(group[1:], 2)
-            f.write(f"{sentence1}\t{sentence2}\n")
+            if len(group) > 1:
+                random.shuffle(group)
+                for i in range(len(group) - 1):
+                    sentence1 = group[i]
+                    sentence2 = group[i + 1]
+                    f.write(f"{sentence1}\t{sentence2}\n")
 
     print(f"WiC file '{output_file}' has been created.")
 
