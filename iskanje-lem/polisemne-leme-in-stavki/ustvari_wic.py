@@ -37,7 +37,7 @@ def create_wic_csv(input_file, output_file):
     print(f"CSV file '{output_file}' has been created.")
 
 # Usage example
-input_filename = 'a_test.txt'  # Replace with your input file name
-output_filename = 'b_test.csv'  # Replace with your output file name
+input_filename = 'iskanje-lem/polisemne-leme-in-stavki/centroidi_final.txt'  # Replace with your input file name
+output_filename = 'iskanje-lem/polisemne-leme-in-stavki/WiC_final.csv'  # Replace with your output file name
 
 create_wic_csv(input_filename, output_filename)
