@@ -1,6 +1,9 @@
 import random
 import csv
 
+def remove_quotes(sentence):
+    return sentence.strip('"')
+
 def create_wic_csv(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8-sig') as f:
         lines = f.readlines()
@@ -13,7 +16,7 @@ def create_wic_csv(input_file, output_file):
             pass
         elif ":" in line:
             cent, poved = line.split(":", 1)
-            group.append(poved.strip())
+            group.append(remove_quotes(poved.strip()))
 
         if not line or line == lines[-1]:
             if group:
@@ -21,13 +24,17 @@ def create_wic_csv(input_file, output_file):
             group = []
 
     sentence_pairs = []
+    used_sentences = set()
     for group in groups:
         if len(group) > 1:
             random.shuffle(group)
             for i in range(len(group) - 1):
                 sentence1 = group[i]
                 sentence2 = group[i + 1]
-                sentence_pairs.append([sentence1, sentence2])
+                if sentence1 not in used_sentences and sentence2 not in used_sentences:
+                    sentence_pairs.append([sentence1, sentence2])
+                    used_sentences.add(sentence1)
+                    used_sentences.add(sentence2)
 
     with open(output_file, 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
@@ -35,6 +42,7 @@ def create_wic_csv(input_file, output_file):
         writer.writerows(sentence_pairs)
 
     print(f"CSV file '{output_file}' has been created.")
+
 
 # Usage example
 input_filename = 'centroidi_final.txt'  # Replace with your input file name
