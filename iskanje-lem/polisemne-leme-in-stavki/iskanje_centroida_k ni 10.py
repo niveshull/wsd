@@ -15,7 +15,7 @@ model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 
 all_sentences = defaultdict(list)
 
-with open('seznam-polisemnih-urejeno-katarina.csv', 'r', encoding='utf-8') as input_file:
+with open('seznam-polisemnih-urejeno.csv', 'r', encoding='utf-8') as input_file:
     csvreader = csv.reader(input_file, delimiter=";")
     next(csvreader)
 
@@ -25,7 +25,7 @@ with open('seznam-polisemnih-urejeno-katarina.csv', 'r', encoding='utf-8') as in
         for b in besede:
             all_sentences[b].append(stavek)
 
-with open('centroidi_katarina.txt', 'w', encoding='utf-8') as output_file:
+with open('centroidi_test.txt', 'w', encoding='utf-8') as output_file:
     for beseda in all_sentences.keys():
         output_file.write("Beseda: {}\n".format(beseda))
         stavki = all_sentences[beseda]
@@ -38,7 +38,7 @@ with open('centroidi_katarina.txt', 'w', encoding='utf-8') as output_file:
         Y_sklearn = sklearn_pca.fit_transform(df)
 
         # Determine number of clusters to use
-        n_clusters = 10
+        n_clusters = 15
         n_samples = len(stavki)
         while n_samples < n_clusters:
             n_clusters -= 1
