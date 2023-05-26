@@ -32,13 +32,13 @@ def create_wic_csv(input_file, output_file):
                 sentence1 = group[i]
                 sentence2 = group[i + 1]
                 if sentence1 not in used_sentences and sentence2 not in used_sentences:
-                    sentence_pairs.append([sentence1, sentence2])
+                    sentence_pairs.append([sentence1, sentence2, ''])
                     used_sentences.add(sentence1)
                     used_sentences.add(sentence2)
 
-    with open(output_file, 'w', encoding='utf-8', newline='') as f:
+    with open(output_file, 'w', encoding='utf-8-sig', newline='') as f:
         writer = csv.writer(f)
-        writer.writerow(['sentence1', 'sentence2'])  # Write header
+        writer.writerow(['sentence1', 'sentence2', 'oznaka (label)'])  # Write header
         writer.writerows(sentence_pairs)
 
     print(f"CSV file '{output_file}' has been created.")
