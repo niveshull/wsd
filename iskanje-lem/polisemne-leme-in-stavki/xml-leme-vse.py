@@ -21,7 +21,6 @@ with open('seznam-polisemnih.csv', 'w', newline='', encoding='utf-8-sig') as csv
 
             for odstavek_st, p in enumerate(root[1][0]):
                 polisem_found_in_par = False
-                #print("Nov odstavek", odstavek_st)
 
                 for poved_st, s in enumerate(p):
                     #print(f"\n- Odstavek št. {odstavek_st}, poved št. {poved_st}:")

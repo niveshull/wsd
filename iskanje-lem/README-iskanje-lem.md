@@ -1,5 +1,4 @@
 # Iskanje polisemnih lem po korpusu
-
 V tem branchu se nahajajo programi za lažje iskanje lem po celotnem korpusu ccKres. Programa olajšata ročno dodeljevanje pomenov izbranim besedam.
 
 ## Uvod
@@ -28,14 +27,14 @@ import csv
 ## Uporaba programov
 Znotraj tega brancha sta ustvarjena dva programa. Prvi zmanjša inventar polisemnih lem, drugi pa najde povedi, v katerih se nahajajo polisemne leme.
 
-### zmanjsaj-inventar-polisemnih-besed.py
+### zmanjsan_inventar_polisemnih.py
 1. odpremo inventar polisemnih besed (datoteka TSV)
-2. odpremo svoje polisemne besede (datoteka TXT, vsaka beseda naj bo v svoji vrstici brez ločil)
+2. odpremo polisemne besede (datoteka TXT, vsaka beseda naj bo v svoji vrstici brez ločil)
 3. program skrajša celoten seznam in ustvari izhodno datoteko z zmanjšanih inventarjem polisemnih lem (datoteka TSV)
 
-### xml-leme-vse-nives.py
+### xml-leme-vse.py
 1. uvozimo knjižnice: xml.etree.ElementTree, os in csv
-2. odpremo svoje polisemne besede (datoteka TXT)
+2. odpremo polisemne besede (datoteka TXT)
 3. ustvarimo prazen seznam stavki_s_polisemi
 4. nastavimo izhodno datoteko, kamor se bodo zapisovale povedi, kjer se nahajajo polisemne besede, in leme (datoteka CSV), ter vanjo zapišemo imena stolpcev (Stavek, Polisemna lema)
 5. nastavimo vhodni direktorij, v katerem so datoteke XML za obdelavo (celoten lematiziran korpus ccKres)
@@ -47,10 +46,6 @@ Znotraj tega brancha sta ustvarjena dva programa. Prvi zmanjša inventar polisem
 11. po obdelavi vseh XML datotek se izpiše število stavkov, ki vsebujejo poliseme
 12. izpišejo se vsi stavki, ki vsebujejo poliseme, skupaj s podatki o njihovem odstavku in povedi
 
-## Opomba
-Programa sta v fazi razvijanja in oblikovanja in nista še končna, ta readme dokument pa služi kot vmesno delovno poročilo za ostale člane skupine.
-
 
 ## Licenca
-
 [CC](https://creativecommons.org/licenses/by-nc/4.0/)
