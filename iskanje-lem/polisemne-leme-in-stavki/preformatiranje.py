@@ -1,15 +1,15 @@
 import csv
 
-input_file = 'NLP manual evaluation.csv'
-output_file = 'preformatiran-manual-evaluation.tsv'
+input_file = 'iskanje-lem/polisemne-leme-in-stavki/NLP manual evaluation.csv'
+output_file = 'iskanje-lem/polisemne-leme-in-stavki/preformatiran-manual-evaluation.tsv'
 
 with open(input_file, newline='', encoding="utf-8-sig") as csvfile:
     reader = csv.reader(csvfile)
     cleaned_data = []
 
     for row in reader:
-        # Remove trailing commas from each field in the row
-        cleaned_row = [field.rstrip(',') for field in row]
+        # Remove trailing commas and empty elements from each field in the row
+        cleaned_row = [field.rstrip(',') for field in row if field.rstrip(',')]
         cleaned_data.append(cleaned_row)
 
 with open(output_file, 'w', newline='', encoding="utf-8-sig") as tsvfile:
