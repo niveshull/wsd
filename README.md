@@ -14,6 +14,6 @@ In the folder `iskanje-lem` there is another readme that explains in detail how 
 
 In the subfolder `polisemne-leme-in-stavki` there is a program for finding centroids that served as the basis for choosing the appropriate candidates for the manually annotated WiC dataset.
 
-It is evident from the first column of `preformatiran-manual-evaluation.csv` which lemma is being examined for WiC. If there are two word forms from the same lemma in the same sentence, the first one was taken into account.
+It is evident from the first column of `preformatiran-manual-evaluation.tsv` which lemma is being examined for WiC. If there are two word forms from the same lemma in the same sentence, the first one was taken into account.
 
 In the folder `reports` includes all the reports of our work.
