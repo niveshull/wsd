@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="F0012567" xml:lang="sl">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ccKRES: Janja Vidmar. Bučko Superga. (2006)</title>
+            <funder>Operacijo delno financira Evropska unija iz Evropskega socialnega sklada ter Ministrstvo za šolstvo in šport. Operacija se izvaja v okviru Operativnega programa razvoja človeških virov za obdobje 2007-2013, razvojne prioritete: razvoj človeških virov in vseživljenjskega učenja; prednostne usmeritve: izboljšanje kakovosti in učinkovitosti sistemov izobraževanja in usposabljanja 2007-2013.</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>1.0</edition>
+         </editionStmt>
+         <extent>643 besed</extent>
+         <publicationStmt>
+            <idno>001</idno>
+            <availability status="free">
+               <p xml:lang="sl">Avtorske pravice za to izdajo ureja licenca <ref target="http://creativecommons.org/licenses/by-nc/2.5/si/">Creative Commons Priznanje avtorstva-Nekomercialno 2.5 Slovenija</ref>.</p>
+               <p xml:lang="en">This work is licenced under the <ref target="http://creativecommons.org/licenses/by-nc/2.5/si/deed.en">Creative Commons Attribution-Noncommercial 2.5 Slovenia</ref>.</p>
+            </availability>
+            <date>2012-05-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Bučko Superga</title>
+               <author>Janja Vidmar</author>
+               <date>2006</date>
+               <publisher n="drugo">Karantanija</publisher>
+               <note type="sourceLang">sl</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="sl">Glej <ref target="http://www.korpus-kres.net/">www.korpus-kres.net</ref> oz. <ref target="http://nl.ijs.si/ssj/">nl.ijs.si/ssj</ref>.</p>
+            <p xml:lang="en">See <ref target="http://www.korpus-kres.net/">www.korpus-kres.net</ref> or <ref target="http://nl.ijs.si/ssj/">nl.ijs.si/ssj</ref>.</p>
+         </projectDesc>
+         <samplingDecl>
+            <p xml:lang="sl">
+            Besedila in odstavki v korpusu KRES so bili vzorčeni iz
+            Gigafide tako, da smo dobili 100-milijonski referenčni
+            korpus, v katerem so besedila uravnotežena po vnaprej
+            določenih taksonomskih deležih in po podatkih o branosti
+            vira (časopisi, revije, novičarski portali).  Korpus
+            ccKRES nato, z namenom, da je lahko dostopen po licenci CC,
+            vsebuje 10 % naključno vzorčenih odstavkov besedil iz
+            korpusa KRES, torej 10 milijonov besed.
+	    Več o sestavi korpusa lahko preberete na 
+            <ref target="http://www.korpus-kres.net/">www.korpus-kres.net</ref> oz.
+            <ref target="http://nl.ijs.si/ssj/">nl.ijs.si/ssj</ref>.
+	  </p>
+            <p xml:lang="en">
+            Texts and paragraphs in the KRES corpus have been sampled from the 
+	    Gigafida corpus. The result of the sampling is a 100-million-word 
+	    reference corpus. The texts in KRES are balanced according to the 
+	    predetermined categories, with particular consideration being paid to 
+	    the data on the popularity of the source (newspapers, magazines, 
+	    Internet news sites). 
+	    To enable free (CC) distribution of the corpus, the ccKRES corpus contains 
+	    10% of randomly sampled paragraphs from KRES, i.e. contains 10 million words.
+	    For more information about the contents of the corpus, 
+	    see <ref target="http://www.korpus-kres.net/">www.korpus-kres.net</ref>
+	    and <ref target="http://nl.ijs.si/ssj/">nl.ijs.si/ssj</ref>.
+	  </p>
+         </samplingDecl>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="p" occurs="28"/>
+               <tagUsage gi="s" occurs="63"/>
+               <tagUsage gi="S" occurs="621"/>
+               <tagUsage gi="w" occurs="643"/>
+               <tagUsage gi="c" occurs="181"/>
+            </namespace>
+         </tagsDecl>
+         <classDecl>
+            <taxonomy xml:id="SSJ">
+               <category xml:id="SSJ.T">
+                  <catDesc>tisk</catDesc>
+                  <category xml:id="SSJ.T.K">
+                     <catDesc>knjižno</catDesc>
+                     <category xml:id="SSJ.T.K.L">
+                        <catDesc>leposlovno</catDesc>
+                     </category>
+                     <category xml:id="SSJ.T.K.S">
+                        <catDesc>strokovno</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="SSJ.T.P">
+                     <catDesc>periodično</catDesc>
+                     <category xml:id="SSJ.T.P.C">
+                        <catDesc>časopis</catDesc>
+                     </category>
+                     <category xml:id="SSJ.T.P.R">
+                        <catDesc>revija</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="SSJ.T.D">
+                     <catDesc>drugo</catDesc>
+                  </category>
+               </category>
+               <category xml:id="SSJ.I">
+                  <catDesc>internet</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef target="#SSJ.T.K.L"/>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="F0012567." xml:lang="sl">
+      <body>
+         <p xml:id="F0012567.000009">
+            <s>
+               <w msd="Sozei" lemma="cmera">Cmera</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Kbvzei" lemma="tretji">tretja</w>
+               <S/>
+               <w msd="Dm" lemma="v">v</w>
+               <S/>
+               <w msd="Sozem" lemma="vrsta">vrsti</w>
+               <S/>
+               <w msd="Psnmmm" lemma="bučkov">Bučkovih</w>
+               <S/>
+               <w msd="Ppsmmr" lemma="dober">najboljših</w>
+               <S/>
+               <w msd="Sommr" lemma="prijatelj">prijateljev</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Vp" lemma="ali">Ali</w>
+               <S/>
+               <w msd="Dm" lemma="v">v</w>
+               <S/>
+               <w msd="Zk-mem" lemma="ta">tem</w>
+               <S/>
+               <w msd="Somem" lemma="primer">primeru</w>
+               <c>,</c>
+               <S/>
+               <w msd="Sozmr" lemma="prijateljica">prijateljic</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Ppnzei" lemma="prenežen">Prenežna</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Dt" lemma="za">za</w>
+               <S/>
+               <w msd="Sometd" lemma="fant">fanta</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vp" lemma="zato">zato</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggvd-ez" lemma="roditi">rodila</w>
+               <S/>
+               <w msd="Vd" lemma="kot">kot</w>
+               <S/>
+               <w msd="Somei" lemma="deklič">deklič</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Do" lemma="z">S</w>
+               <S/>
+               <w msd="Ppnzeo" lemma="triperesen">triperesno</w>
+               <S/>
+               <w msd="Sozeo" lemma="deteljica">deteljico</w>
+               <S/>
+               <w msd="Slzeo" lemma="Bučka">Bučko</w>
+               <c>,</c>
+               <S/>
+               <w msd="Slmei" lemma="Bugi">Bugi</w>
+               <c>,</c>
+               <S/>
+               <w msd="Somei" lemma="zajček">Zajček</w>
+               <S/>
+               <w msd="Zotzet--k" lemma="on">jo</w>
+               <S/>
+               <w msd="Ggnste" lemma="družiti">druži</w>
+               <S/>
+               <w msd="Rsn" lemma="golo">golo</w>
+               <S/>
+               <w msd="Sosei" lemma="naključje">naključje</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="da">da</w>
+               <S/>
+               <w msd="Dm" lemma="v">v</w>
+               <S/>
+               <w msd="Sozem" lemma="ulica">Ulici</w>
+               <S/>
+               <w msd="Kbgmmr" lemma="trije">treh</w>
+               <S/>
+               <w msd="Sommr" lemma="hrast">hrastov</w>
+               <S/>
+               <w msd="L" lemma="ne">ne</w>
+               <S/>
+               <w msd="Ggnste" lemma="manjkati">manjka</w>
+               <S/>
+               <w msd="L" lemma="le">le</w>
+               <S/>
+               <w msd="Kbvmei" lemma="tretji">tretji</w>
+               <S/>
+               <w msd="Somei" lemma="hrast">hrast</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vp" lemma="ampak">ampak</w>
+               <S/>
+               <w msd="Ggnstm" lemma="manjkati">manjkajo</w>
+               <S/>
+               <w msd="L" lemma="tudi">tudi</w>
+               <S/>
+               <w msd="Sozmi" lemma="punca">punce</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Sozet" lemma="roka">Roko</w>
+               <S/>
+               <w msd="Dt" lemma="na">na</w>
+               <S/>
+               <w msd="Soset" lemma="srce">srce</w>
+               <c>,</c>
+               <S/>
+               <w msd="L" lemma="niti">niti</w>
+               <S/>
+               <w msd="Kbzzei" lemma="en">ena</w>
+               <S/>
+               <w msd="Ppnzei" lemma="samcat">samcata</w>
+               <S/>
+               <w msd="L" lemma="ne">ne</w>
+               <S/>
+               <w msd="Ggnste" lemma="rasti">raste</w>
+               <S/>
+               <w msd="Rsn" lemma="daleč">daleč</w>
+               <S/>
+               <w msd="Rsn" lemma="naokrog">naokrog</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Zl-sei" lemma="nič">Nič</w>
+               <S/>
+               <w msd="Ppnser" lemma="čuden">čudnega</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="da">da</w>
+               <S/>
+               <w msd="Sozei" lemma="cmera">Cmera</w>
+               <S/>
+               <w msd="Ggnste" lemma="puščati">pušča</w>
+               <S/>
+               <w msd="Vd" lemma="kot">kot</w>
+               <S/>
+               <w msd="Soset" lemma="rešeto">rešeto</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="L" lemma="še">Še</w>
+               <S/>
+               <w msd="Ppnmmi" lemma="pšeničen">pšenični</w>
+               <S/>
+               <w msd="Sozdi" lemma="kita">kiti</w>
+               <S/>
+               <w msd="Gp-std-n" lemma="biti">sta</w>
+               <S/>
+               <w msd="Zotzed--k" lemma="on">ji</w>
+               <S/>
+               <w msd="Dr" lemma="od">od</w>
+               <S/>
+               <w msd="Ppnser" lemma="silen">silnega</w>
+               <S/>
+               <w msd="Soser" lemma="vekanje">vekanja</w>
+               <S/>
+               <w msd="Pdnmmi" lemma="zrasel">zrasli</w>
+               <S/>
+               <w msd="Dr" lemma="do">do</w>
+               <S/>
+               <w msd="Sosmr" lemma="rame">ramen</w>
+               <c>.</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000047">
+            <s>
+               <w msd="Slzet" lemma="BUČKA">BUČKO</w>
+               <S/>
+               <w msd="Somei" lemma="supergaman">SUPERGAMAN</w>
+            </s>
+         </p>
+         <p xml:id="F0012567.000050">
+            <s>
+               <c>»</c>
+               <w msd="M" lemma="hm">Hm</w>
+               <c>,</c>
+               <c>«</c>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="zamisliti">zamislil</w>
+               <S/>
+               <w msd="Somei" lemma="očka">očka</w>
+               <c>,</c>
+               <S/>
+               <c>»</c>
+               <w msd="Ggnste" lemma="zdeti">zdi</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Zop-ed--k" lemma="jaz">mi</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="da">da</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ppe-n" lemma="biti">bom</w>
+               <S/>
+               <w msd="L" lemma="tudi">tudi</w>
+               <S/>
+               <w msd="Zop-ei" lemma="jaz">jaz</w>
+               <S/>
+               <w msd="Rsn" lemma="zvečer">zvečer</w>
+               <S/>
+               <w msd="Ggnd-em" lemma="počutiti">počutil</w>
+               <S/>
+               <w msd="Rsn" lemma="tako">tako</w>
+               <S/>
+               <w msd="Ppnmmi" lemma="zanič">zanič</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="da">da</w>
+               <S/>
+               <w msd="Zod-ed--k" lemma="ti">ti</w>
+               <S/>
+               <w msd="L" lemma="ne">ne</w>
+               <S/>
+               <w msd="Gp-ppe-n" lemma="biti">bom</w>
+               <S/>
+               <w msd="Ggnd-em" lemma="moči">mogel</w>
+               <S/>
+               <w msd="Ggdn" lemma="izdati">izdati</w>
+               <c>,</c>
+               <S/>
+               <w msd="Rsn" lemma="kako">kako</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Ggdste" lemma="končati">konča</w>
+               <S/>
+               <w msd="Sozei" lemma="zgodba">zgodba</w>
+               <S/>
+               <w msd="Dm" lemma="o">o</w>
+               <S/>
+               <w msd="Pdnzem" lemma="odrezan">odrezani</w>
+               <S/>
+               <w msd="Sozem" lemma="glava">glavi</w>
+               <c>.</c>
+               <c>«</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000087">
+            <s>
+               <w msd="Slmei" lemma="Bugi">Bugi</w>
+               <S/>
+               <w msd="Zp---d--k" lemma="se">si</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Do" lemma="z">s</w>
+               <S/>
+               <w msd="Sozmo" lemma="taca">tacami</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="pokriti">pokril</w>
+               <S/>
+               <w msd="Somei" lemma="smrček">smrček</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Zc-zei" lemma="vsak">Vsaka</w>
+               <S/>
+               <w msd="Sozei" lemma="smrt">smrt</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ppnzei" lemma="grozen">grozna</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="če">če</w>
+               <S/>
+               <w msd="Gp-sde-n" lemma="biti">si</w>
+               <S/>
+               <w msd="Ppnmein" lemma="mrtev">mrtev</w>
+               <c>!</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000090">
+            <s>
+               <c>»</c>
+               <w msd="Vp" lemma="ali">Ali</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Gp-d-em" lemma="biti">bil</w>
+               <S/>
+               <w msd="Dm" lemma="v">v</w>
+               <S/>
+               <w msd="Sozem" lemma="piramida">piramidi</w>
+               <S/>
+               <w msd="Rsn" lemma="tako">tako</w>
+               <S/>
+               <w msd="Pdnmein" lemma="osamljen">osamljen</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="da">da</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Rsn" lemma="kar">kar</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="vrniti">vrnil</w>
+               <c>?</c>
+               <c>«</c>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Sozet" lemma="bučka">Bučko</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="razširiti">razširil</w>
+               <S/>
+               <w msd="Sozmt" lemma="oči">oči</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <c>»</c>
+               <w msd="M" lemma="ojej">Ojej</w>
+               <c>,</c>
+               <S/>
+               <w msd="Rsn" lemma="kako">kako</w>
+               <S/>
+               <w msd="Rsn" lemma="grozno">grozno</w>
+               <S/>
+               <c>.</c>
+               <c>.</c>
+               <c>.</c>
+               <c>«</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000106">
+            <s>
+               <w msd="Slzei" lemma="Bučka">Bučka</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-es" lemma="vreči">vrglo</w>
+               <S/>
+               <w msd="Rsn" lemma="naprej">naprej</w>
+               <c>,</c>
+               <S/>
+               <w msd="Sozei" lemma="cmera">Cmera</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-ez" lemma="zahlipati">zahlipala</w>
+               <c>:</c>
+               <S/>
+               <c>»</c>
+               <w msd="Somei" lemma="duuuuh">Duuuuh</w>
+               <S/>
+               <c>.</c>
+               <c>.</c>
+               <c>.</c>
+               <c>«</c>
+               <c>,</c>
+               <S/>
+               <w msd="Somei" lemma="zajček">Zajček</w>
+               <S/>
+               <w msd="Vp" lemma="pa">pa</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Pdnmein" lemma="loveč">loveč</w>
+               <S/>
+               <w msd="Sozet" lemma="sapa">sapo</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="otrpniti">otrpnil</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="da">da</w>
+               <S/>
+               <w msd="Gp-std-n" lemma="biti">sta</w>
+               <S/>
+               <w msd="Zotmet--k" lemma="on">ga</w>
+               <S/>
+               <w msd="Ggnd-dm" lemma="morati">morala</w>
+               <S/>
+               <w msd="Somdi" lemma="prijatelj">prijatelja</w>
+               <S/>
+               <w msd="Rsn" lemma="dobesedno">dobesedno</w>
+               <S/>
+               <w msd="Ggdn" lemma="izruvati">izruvati</w>
+               <S/>
+               <w msd="Dr" lemma="iz">iz</w>
+               <S/>
+               <w msd="Sozer" lemma="zemlja">zemlje</w>
+               <c>.</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000110">
+            <s>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Rsn" lemma="znova">znova</w>
+               <S/>
+               <w msd="Ggnd-ez" lemma="preštevati">preštevala</w>
+               <c>.</c>
+               <S/>
+            </s>
+         </p>
+         <p xml:id="F0012567.000121">
+            <s>
+               <c>»</c>
+               <w msd="Zk-smi" lemma="tisti">Tista</w>
+               <S/>
+               <w msd="Do" lemma="z">z</w>
+               <S/>
+               <w msd="Sozmo" lemma="markacija">markacijami</w>
+               <c>,</c>
+               <c>«</c>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Pdnsei" lemma="pobit">pobito</w>
+               <S/>
+               <w msd="Ggdd-ez" lemma="pristaviti">pristavila</w>
+               <S/>
+               <w msd="Sozei" lemma="cmera">Cmera</w>
+               <c>.</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000124">
+            <s>
+               <c>»</c>
+               <w msd="Ggdvde" lemma="nehati">Nehaj</w>
+               <c>,</c>
+               <S/>
+               <w msd="L" lemma="še">še</w>
+               <S/>
+               <w msd="Zod-ed--k" lemma="ti">ti</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-pde-n" lemma="biti">boš</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="izgubiti">izgubil</w>
+               <c>,</c>
+               <c>«</c>
+               <S/>
+               <w msd="Zotmet--k" lemma="on">ga</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggnd-ez" lemma="moledovati">moledovala</w>
+               <S/>
+               <w msd="Sozei" lemma="cmera">Cmera</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="ki">ki</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Dr" lemma="od">od</w>
+               <S/>
+               <w msd="Ppnser" lemma="hud">hudega</w>
+               <S/>
+               <w msd="Ggdd-ez" lemma="pozabiti">pozabila</w>
+               <S/>
+               <w msd="Ggnn" lemma="jokati">jokati</w>
+               <c>.</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000133">
+            <s>
+               <c>»</c>
+               <w msd="Rsn" lemma="kam">Kam</w>
+               <S/>
+               <w msd="Gp-g" lemma="biti">bi</w>
+               <S/>
+               <w msd="Vp" lemma="pa">pa</w>
+               <S/>
+               <w msd="Ggvd-mm" lemma="iti">šli</w>
+               <c>?</c>
+               <c>«</c>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="namrščiti">namrščil</w>
+               <S/>
+               <w msd="Sozet" lemma="bučka">Bučko</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="ki">ki</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="L" lemma="ravno">ravno</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="zatopiti">zatopil</w>
+               <S/>
+               <w msd="Dt" lemma="v">v</w>
+               <S/>
+               <w msd="Zp-zet" lemma="svoj">svojo</w>
+               <S/>
+               <w msd="Ppszet" lemma="ljub">najljubšo</w>
+               <S/>
+               <w msd="Sozet" lemma="risanka">risanko</w>
+               <c>.</c>
+               <S/>
+            </s>
+         </p>
+         <p xml:id="F0012567.000137">
+            <s>
+               <w msd="Sozet" lemma="bučka">Bučko</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="popraskati">popraskal</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Dt" lemma="po">po</w>
+               <S/>
+               <w msd="Rsn" lemma="filozofsko">filozofsko</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="zamisliti">zamislil</w>
+               <c>:</c>
+               <S/>
+               <w msd="Somei" lemma="očka">očka</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Sozei" lemma="mamica">mamica</w>
+               <S/>
+               <w msd="Zotmet--k" lemma="on">ga</w>
+               <S/>
+               <w msd="Do" lemma="z">z</w>
+               <S/>
+               <w msd="Ppnzmo" lemma="mamljiv">mamljivimi</w>
+               <S/>
+               <w msd="Sozmo" lemma="ponudba">ponudbami</w>
+               <S/>
+               <w msd="Ggnstd" lemma="odvračati">odvračata</w>
+               <S/>
+               <w msd="Dr" lemma="od">od</w>
+               <S/>
+               <w msd="Somer" lemma="televizor">televizorja</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Vp" lemma="ampak">Ampak</w>
+               <S/>
+               <w msd="Rsn" lemma="zakaj">zakaj</w>
+               <S/>
+               <w msd="Zotmed--k" lemma="on">mu</w>
+               <S/>
+               <w msd="Ppszmt" lemma="dober">najboljše</w>
+               <S/>
+               <w msd="Sozmt" lemma="reč">reči</w>
+               <S/>
+               <w msd="Ggnstd" lemma="ponujati">ponujata</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="kadar">kadar</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Dm" lemma="na">na</w>
+               <S/>
+               <w msd="Somem" lemma="spored">sporedu</w>
+               <S/>
+               <w msd="Zstzeiem" lemma="njegov">njegova</w>
+               <S/>
+               <w msd="Kbzzei" lemma="drug">druga</w>
+               <c>,</c>
+               <S/>
+               <w msd="Kbvzei" lemma="peti">peta</w>
+               <S/>
+               <w msd="Vp" lemma="ali">ali</w>
+               <S/>
+               <w msd="Kbvzei" lemma="prvi">prva</w>
+               <S/>
+               <w msd="Ppszei" lemma="ljub">najljubša</w>
+               <S/>
+               <w msd="Sozei" lemma="risanka">risanka</w>
+               <c>?</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Rsn" lemma="zakaj">Zakaj</w>
+               <S/>
+               <w msd="Zotmed--k" lemma="on">mu</w>
+               <S/>
+               <w msd="Zl-ser" lemma="nič">ničesar</w>
+               <S/>
+               <w msd="L" lemma="ne">ne</w>
+               <S/>
+               <w msd="Ggdstd" lemma="ponuditi">ponudita</w>
+               <S/>
+               <w msd="Do" lemma="med">med</w>
+               <S/>
+               <w msd="Soseo" lemma="pisanje">pisanjem</w>
+               <S/>
+               <w msd="Ppnzer" lemma="domač">domače</w>
+               <S/>
+               <w msd="Sozer" lemma="naloga">naloge</w>
+               <c>?</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Vp" lemma="ali">Ali</w>
+               <S/>
+               <w msd="Do" lemma="med">med</w>
+               <S/>
+               <w msd="Soseo" lemma="pospravljanje">pospravljanjem</w>
+               <S/>
+               <w msd="Sozmr" lemma="igrača">igrač</w>
+               <c>?</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Vp" lemma="ali">Ali</w>
+               <S/>
+               <w msd="Vd" lemma="kadar">kadar</w>
+               <S/>
+               <w msd="Zotmet--k" lemma="on">ga</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Somei" lemma="strah">strah</w>
+               <S/>
+               <w msd="Sozer" lemma="tema">teme</w>
+               <c>?</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000151">
+            <s>
+               <c>»</c>
+               <w msd="Vp" lemma="ampak">Ampak</w>
+               <S/>
+               <w msd="Vd" lemma="če">če</w>
+               <S/>
+               <w msd="Zop-er--k" lemma="jaz">me</w>
+               <S/>
+               <w msd="Sommi" lemma="duh">duhovi</w>
+               <S/>
+               <w msd="Ggdstm" lemma="zajeti">zajamejo</w>
+               <S/>
+               <w msd="Vd" lemma="kot">kot</w>
+               <S/>
+               <w msd="Sometd" lemma="talec">talca</w>
+               <c>,</c>
+               <S/>
+               <w msd="Gp-ptd-n" lemma="biti">bosta</w>
+               <S/>
+               <w msd="Ppnzei" lemma="kriv">kriva</w>
+               <S/>
+               <w msd="Zodmdi" lemma="ti">vidva</w>
+               <c>!</c>
+               <c>«</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Do" lemma="z">Z</w>
+               <S/>
+               <w msd="Sozmo" lemma="roka">rokami</w>
+               <S/>
+               <w msd="Dm" lemma="v">v</w>
+               <S/>
+               <w msd="Sommm" lemma="žep">žepih</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="odpraviti">odpravil</w>
+               <S/>
+               <w msd="Dt" lemma="v">v</w>
+               <S/>
+               <w msd="Ppnzet" lemma="sosednji">sosednjo</w>
+               <S/>
+               <w msd="Sozet" lemma="dvorana">dvorano</w>
+               <c>.</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000168">
+            <s>
+               <w msd="Zc-mmi" lemma="ves">Vsi</w>
+               <S/>
+               <w msd="Kbgmmi" lemma="trije">trije</w>
+               <S/>
+               <w msd="Gp-stm-n" lemma="biti">so</w>
+               <S/>
+               <w msd="Ggdd-mm" lemma="pospraviti">pospravili</w>
+               <S/>
+               <w msd="Sometn" lemma="zajtrk">zajtrk</w>
+               <S/>
+               <w msd="Sommr" lemma="prvak">prvakov</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Ggdd-mm" lemma="odpraviti">odpravili</w>
+               <S/>
+               <w msd="Dt" lemma="na">na</w>
+               <S/>
+               <w msd="Soset" lemma="igrišče">igrišče</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Ggdd-dm" lemma="pridružiti">Pridružila</w>
+               <S/>
+               <w msd="Gp-std-n" lemma="biti">sta</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Zotmmd--k" lemma="on">jim</w>
+               <S/>
+               <w msd="Somei" lemma="zajček">Zajček</w>
+               <S/>
+               <w msd="Do" lemma="z">s</w>
+               <S/>
+               <w msd="Ppnzeo" lemma="smučarski">smučarsko</w>
+               <S/>
+               <w msd="Sozeo" lemma="čelada">čelado</w>
+               <S/>
+               <w msd="Dm" lemma="na">na</w>
+               <S/>
+               <w msd="Sozem" lemma="glava">glavi</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Sozei" lemma="cmera">Cmera</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="ki">ki</w>
+               <S/>
+               <w msd="Gp-stm-n" lemma="biti">so</w>
+               <S/>
+               <w msd="Zotzed--k" lemma="on">ji</w>
+               <S/>
+               <w msd="Dr" lemma="od">od</w>
+               <S/>
+               <w msd="Somer" lemma="mraz">mraza</w>
+               <S/>
+               <w msd="Dr" lemma="iz">iz</w>
+               <S/>
+               <w msd="Sozmr" lemma="oči">oči</w>
+               <S/>
+               <w msd="Ggnd-mm" lemma="kapljati">kapljali</w>
+               <S/>
+               <w msd="Sommi" lemma="kristal">kristali</w>
+               <c>.</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000172">
+            <s>
+               <c>»</c>
+               <w msd="Somei" lemma="sneg">Sneg</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Pdnzei" lemma="zmrznjen">zmrznjena</w>
+               <S/>
+               <w msd="Sozei" lemma="voda">voda</w>
+               <c>,</c>
+               <c>«</c>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="pojasniti">pojasnil</w>
+               <S/>
+               <w msd="Somei" lemma="očka">očka</w>
+               <c>,</c>
+               <S/>
+               <c>»</c>
+               <w msd="Pdnmein" lemma="steptan">steptan</w>
+               <S/>
+               <w msd="Ggnste" lemma="znati">zna</w>
+               <S/>
+               <w msd="Gp-n" lemma="biti">biti</w>
+               <S/>
+               <w msd="Rsn" lemma="zelo">zelo</w>
+               <S/>
+               <w msd="Ppnmein" lemma="trd">trd</w>
+               <c>.</c>
+               <c>«</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000195">
+            <s>
+               <c>»</c>
+               <w msd="Ppnmein" lemma="prepozen">Prepozen</w>
+               <S/>
+               <w msd="Zp---d--k" lemma="se">si</w>
+               <c>,</c>
+               <c>«</c>
+               <S/>
+               <w msd="Zotmet--k" lemma="on">ga</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="opomniti">opomnil</w>
+               <S/>
+               <w msd="Somei" lemma="zajček">Zajček</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <c>»</c>
+               <w msd="Zop-ei" lemma="jaz">Jaz</w>
+               <S/>
+               <w msd="Gp-spe-n" lemma="biti">sem</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="prebrati">prebral</w>
+               <S/>
+               <w msd="L" lemma="že">že</w>
+               <S/>
+               <w msd="Sozet" lemma="polovica">polovico</w>
+               <S/>
+               <w msd="Sozmr" lemma="knjiga">knjig</w>
+               <S/>
+               <w msd="Dm" lemma="v">v</w>
+               <S/>
+               <w msd="Ppnzem" lemma="pionirski">Pionirski</w>
+               <S/>
+               <w msd="Sozem" lemma="knjižnica">knjižnici</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Rss" lemma="najmanj">Najmanj</w>
+               <S/>
+               <w msd="Kbg-mi" lemma="trideset">trideset</w>
+               <c>.</c>
+               <c>«</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000262">
+            <s>
+               <w msd="Rsn" lemma="kmalu">Kmalu</w>
+               <S/>
+               <w msd="Zotmed--k" lemma="on">mu</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Somei" lemma="obraz">obraz</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="zasijati">zasijal</w>
+               <S/>
+               <w msd="Dr" lemma="od">od</w>
+               <S/>
+               <w msd="Soser" lemma="navdušenje">navdušenja</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="L" lemma="šele">Šele</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="začeti">začel</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggnn" lemma="hoditi">hoditi</w>
+               <S/>
+               <w msd="Dt" lemma="v">v</w>
+               <S/>
+               <w msd="Sozet" lemma="služba">službo</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="L" lemma="že">že</w>
+               <S/>
+               <w msd="Gp-stm-n" lemma="biti">so</w>
+               <S/>
+               <w msd="Zotmet--z" lemma="name">nanj</w>
+               <S/>
+               <w msd="Ggnd-ez" lemma="čakati">čakala</w>
+               <S/>
+               <w msd="Ppszei" lemma="imeniten">najimenitnejša</w>
+               <S/>
+               <w msd="Sosmi" lemma="vrata">vrata</w>
+               <S/>
+               <w msd="Dm" lemma="na">na</w>
+               <S/>
+               <w msd="Ppnmem" lemma="cel">celem</w>
+               <S/>
+               <w msd="Somem" lemma="hodnik">hodniku</w>
+               <c>!</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Ggnd-ez" lemma="krasiti">Krasila</w>
+               <S/>
+               <w msd="Zotmmt--k" lemma="on">jih</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Pdnzei" lemma="pozlačen">pozlačena</w>
+               <S/>
+               <w msd="Sozei" lemma="kljuka">kljuka</w>
+               <c>,</c>
+               <S/>
+               <w msd="Gp-d-ez" lemma="biti">bila</w>
+               <S/>
+               <w msd="Gp-stm-n" lemma="biti">so</w>
+               <S/>
+               <w msd="Pppzei" lemma="velik">večja</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Kbdmdi" lemma="dvojen">dvojna</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="da">da</w>
+               <S/>
+               <w msd="Gp-pte-n" lemma="biti">bo</w>
+               <S/>
+               <w msd="Rsr" lemma="lahko">lažje</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="vstopiti">vstopil</w>
+               <c>!</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000264">
+            <s>
+               <w msd="Ggdd-em" lemma="odškrniti">Odškrnil</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Sosmt" lemma="vrata">vrata</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="ostrmeti">ostrmel</w>
+               <c>.</c>
+               <S/>
+            </s>
+         </p>
+         <p xml:id="F0012567.000267">
+            <s>
+               <c>»</c>
+               <w msd="Sozet" lemma="bučka">Bučko</w>
+               <c>,</c>
+               <c>«</c>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Rsn" lemma="neustrašno">neustrašno</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="odvrniti">odvrnil</w>
+               <S/>
+               <w msd="Sozet" lemma="bučka">Bučko</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Dt" lemma="na">na</w>
+               <S/>
+               <w msd="Ppnzet" lemma="velikanski">velikansko</w>
+               <S/>
+               <w msd="Sozet" lemma="miza">mizo</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="odložiti">odložil</w>
+               <S/>
+               <w msd="Rsn" lemma="pol">pol</w>
+               <S/>
+               <w msd="Somer" lemma="meter">metra</w>
+               <S/>
+               <w msd="Sozmr" lemma="mapa">map</w>
+               <c>,</c>
+               <S/>
+               <c>»</c>
+               <w msd="Vp" lemma="ampak">ampak</w>
+               <S/>
+               <w msd="Rsn" lemma="lahko">lahko</w>
+               <S/>
+               <w msd="Zop-et--k" lemma="jaz">me</w>
+               <S/>
+               <w msd="Ggnsdm" lemma="klicati">kličete</w>
+               <S/>
+               <w msd="Sozet" lemma="bučka">Bučko</w>
+               <S/>
+               <w msd="Sozei" lemma="superga">Superga</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Zv-mei" lemma="kdo">Kdo</w>
+               <S/>
+               <w msd="Gp-sdm-n" lemma="biti">ste</w>
+               <S/>
+               <w msd="Vp" lemma="pa">pa</w>
+               <S/>
+               <w msd="Zodmmi" lemma="ti">vi</w>
+               <c>?</c>
+               <c>«</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000272">
+            <s>
+               <c>»</c>
+               <w msd="Vp" lemma="saj">Saj</w>
+               <S/>
+               <w msd="L" lemma="ne">ne</w>
+               <S/>
+               <w msd="Ggnspe" lemma="hoditi">hodim</w>
+               <S/>
+               <w msd="Dt" lemma="v">v</w>
+               <S/>
+               <w msd="Sometn" lemma="vrtec">vrtec</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vp" lemma="ampak">ampak</w>
+               <S/>
+               <w msd="Dt" lemma="v">v</w>
+               <S/>
+               <w msd="Sozet" lemma="šola">šolo</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Rsn" lemma="tukaj">Tukaj</w>
+               <S/>
+               <w msd="Gp-spe-n" lemma="biti">sem</w>
+               <S/>
+               <w msd="Vp" lemma="pa">pa</w>
+               <S/>
+               <w msd="Dm" lemma="v">v</w>
+               <S/>
+               <w msd="Sozem" lemma="služba">službi</w>
+               <c>!</c>
+               <c>«</c>
+               <S/>
+               <w msd="Zotmed--k" lemma="on">mu</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Rsn" lemma="vljudno">vljudno</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="pojasniti">pojasnil</w>
+               <S/>
+               <w msd="Sozet" lemma="bučka">Bučko</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <c>»</c>
+               <w msd="Vp" lemma="in">In</w>
+               <S/>
+               <w msd="Gp-ste-d" lemma="biti">ni</w>
+               <S/>
+               <w msd="Rsn" lemma="res">res</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="da">da</w>
+               <S/>
+               <w msd="L" lemma="ne">ne</w>
+               <S/>
+               <w msd="Ggnsdm" lemma="poznati">poznate</w>
+               <S/>
+               <w msd="Zl-mer" lemma="noben">nobenega</w>
+               <S/>
+               <w msd="Somer" lemma="buček">Bučka</w>
+               <S/>
+               <w msd="Sozer" lemma="superga">Superge</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Rsn" lemma="zdaj">Zdaj</w>
+               <S/>
+               <w msd="Ggnsdm" lemma="poznati">poznate</w>
+               <S/>
+               <w msd="Zop-er" lemma="jaz">mene</w>
+               <c>.</c>
+               <c>«</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000277">
+            <s>
+               <c>»</c>
+               <w msd="Zv-zei" lemma="kateri">Katera</w>
+               <S/>
+               <w msd="Vp" lemma="pa">pa</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Zsdzeie" lemma="tvoj">tvoja</w>
+               <S/>
+               <w msd="Sozei" lemma="mama">mama</w>
+               <c>?</c>
+               <c>«</c>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggnd-es" lemma="zanimati">zanimalo</w>
+               <S/>
+               <w msd="Sozei" lemma="gospoda">gospoda</w>
+               <S/>
+               <w msd="Somer" lemma="direktor">direktorja</w>
+               <c>.</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000304">
+            <s>
+               <w msd="Rsn" lemma="tedaj">Tedaj</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggvd-em" lemma="slišati">slišal</w>
+               <S/>
+               <w msd="Sozmt" lemma="nožica">nožice</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="ki">ki</w>
+               <S/>
+               <w msd="Gp-stm-n" lemma="biti">so</w>
+               <S/>
+               <w msd="Ggnd-mz" lemma="drobencljati">drobencljale</w>
+               <S/>
+               <w msd="Rsn" lemma="sem">sem</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Rsn" lemma="tja">tja</w>
+               <S/>
+               <w msd="Dm" lemma="po">po</w>
+               <S/>
+               <w msd="Sozem" lemma="kuhinja">kuhinji</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Ggdd-em" lemma="spomniti">Spomnil</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ppnmmr" lemma="hudoben">hudobnih</w>
+               <S/>
+               <w msd="Sommr" lemma="škrat">škratov</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="ki">ki</w>
+               <S/>
+               <w msd="Gp-stm-n" lemma="biti">so</w>
+               <S/>
+               <w msd="Zotzmd--k" lemma="on">jim</w>
+               <S/>
+               <w msd="Ggdd-mz" lemma="pozabiti">pozabile</w>
+               <S/>
+               <w msd="Ggdn" lemma="zrasti">zrasti</w>
+               <S/>
+               <w msd="Sozmt" lemma="noga">noge</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Rsn" lemma="nato">Nato</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="spomniti">spomnil</w>
+               <S/>
+               <w msd="L" lemma="še">še</w>
+               <S/>
+               <w msd="Sommr" lemma="palček">palčkov</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="ki">ki</w>
+               <S/>
+               <w msd="Rsn" lemma="lahko">lahko</w>
+               <S/>
+               <w msd="Dt" lemma="v">v</w>
+               <S/>
+               <w msd="Sozet" lemma="hiša">hišo</w>
+               <S/>
+               <w msd="Ggdstm" lemma="priti">pridejo</w>
+               <S/>
+               <w msd="Dt" lemma="skozi">skozi</w>
+               <S/>
+               <w msd="Ppnmetd" lemma="pošten">poštni</w>
+               <S/>
+               <w msd="Somei" lemma="nabiralnik">nabiralnik</w>
+               <c>.</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000362">
+            <s>
+               <c>»</c>
+               <w msd="Rsn" lemma="zakaj">Zakaj</w>
+               <S/>
+               <w msd="Ggnspe" lemma="morati">moram</w>
+               <S/>
+               <w msd="Ggnn" lemma="hoditi">hoditi</w>
+               <S/>
+               <w msd="Dt" lemma="v">v</w>
+               <S/>
+               <w msd="Sozet" lemma="šola">šolo</w>
+               <c>?</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Zk-sei" lemma="ta">To</w>
+               <S/>
+               <w msd="Gp-ste-d" lemma="biti">ni</w>
+               <S/>
+               <w msd="Rsn" lemma="pošteno">pošteno</w>
+               <S/>
+               <w msd="Dr" lemma="do">do</w>
+               <S/>
+               <w msd="Zop-er" lemma="jaz">mene</w>
+               <c>!</c>
+               <c>«</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000374">
+            <s>
+               <c>»</c>
+               <w msd="Vp" lemma="pa">Pa</w>
+               <S/>
+               <w msd="Zv-sei" lemma="kaj">kaj</w>
+               <S/>
+               <w msd="Rsn" lemma="potem">potem</w>
+               <c>?</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Ggdvde" lemma="pogledati">Poglej</w>
+               <S/>
+               <w msd="Zp---t" lemma="se">sebe</w>
+               <c>!</c>
+               <c>«</c>
+               <S/>
+               <w msd="Zotzed--k" lemma="on">ji</w>
+               <S/>
+               <w msd="Slmei" lemma="Peter">Peter</w>
+               <S/>
+               <w msd="Gp-ste-d" lemma="biti">ni</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="ostati">ostal</w>
+               <S/>
+               <w msd="Ppnmein" lemma="dolžen">dolžan</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <c>»</c>
+               <w msd="Rsn" lemma="tako">Tako</w>
+               <S/>
+               <w msd="Ppnzei" lemma="velik">velika</w>
+               <S/>
+               <w msd="Zp---d--k" lemma="se">si</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Ppnzei" lemma="močen">močna</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vp" lemma="pa">pa</w>
+               <S/>
+               <w msd="Rsn" lemma="kar">kar</w>
+               <S/>
+               <w msd="Rsn" lemma="naprej">naprej</w>
+               <S/>
+               <w msd="Ggnsde" lemma="jokati">jočeš</w>
+               <c>!</c>
+               <c>«</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000383">
+            <s>
+               <w msd="Vp" lemma="zato">Zato</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="odpraviti">odpravil</w>
+               <S/>
+               <w msd="Dt" lemma="v">v</w>
+               <S/>
+               <w msd="Sozet" lemma="šola">šolo</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Do" lemma="z">z</w>
+               <S/>
+               <w msd="Someo" lemma="buček">Bučkom</w>
+               <c>,</c>
+               <S/>
+               <w msd="Someo" lemma="zajček">Zajčkom</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Sozet" lemma="cmera">Cmero</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="preživeti">preživel</w>
+               <S/>
+               <w msd="Ppnzer" lemma="prijeten">prijetne</w>
+               <S/>
+               <w msd="Sozer" lemma="urica">urice</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Sozei" lemma="učiteljica">Učiteljica</w>
+               <S/>
+               <w msd="Zotmer--k" lemma="on">ga</w>
+               <S/>
+               <w msd="Gp-ste-d" lemma="biti">ni</w>
+               <S/>
+               <w msd="Ggnd-ez" lemma="moči">mogla</w>
+               <S/>
+               <w msd="Ggdn" lemma="prehvaliti">prehvaliti</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vp" lemma="kajti">kajti</w>
+               <S/>
+               <w msd="Slmei" lemma="Peter">Peter</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Gp-d-em" lemma="biti">bil</w>
+               <S/>
+               <w msd="Kbzmei" lemma="eden">eden</w>
+               <S/>
+               <w msd="Zstmmrez" lemma="njen">njenih</w>
+               <S/>
+               <w msd="Ppsmmr" lemma="ljub">najljubših</w>
+               <S/>
+               <w msd="Sommr" lemma="učenec">učencev</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Rsn" lemma="nikoli">Nikoli</w>
+               <S/>
+               <w msd="Gp-ste-d" lemma="biti">ni</w>
+               <S/>
+               <w msd="Ggnd-em" lemma="nagajati">nagajal</w>
+               <c>,</c>
+               <S/>
+               <w msd="Ggnd-em" lemma="klepetati">klepetal</w>
+               <S/>
+               <w msd="Do" lemma="med">med</w>
+               <S/>
+               <w msd="Someo" lemma="pouk">poukom</w>
+               <c>,</c>
+               <S/>
+               <w msd="Ggvd-em" lemma="trmoglaviti">trmoglavil</w>
+               <S/>
+               <w msd="Vp" lemma="ali">ali</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Ggnd-em" lemma="zapletati">zapletal</w>
+               <S/>
+               <w msd="Dt" lemma="v">v</w>
+               <S/>
+               <w msd="Sozmt" lemma="težava">težave</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Sommi" lemma="sošolec">Sošolci</w>
+               <S/>
+               <w msd="Gp-stm-n" lemma="biti">so</w>
+               <S/>
+               <w msd="Zotmet--k" lemma="on">ga</w>
+               <S/>
+               <w msd="Ggnd-mm" lemma="imeti">imeli</w>
+               <S/>
+               <w msd="Rsn" lemma="rad">radi</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="ker">ker</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Gp-d-em" lemma="biti">bil</w>
+               <S/>
+               <w msd="Ppnmein" lemma="zabaven">zabaven</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Ppnmein" lemma="prijazen">prijazen</w>
+               <c>.</c>
+               <S/>
+            </s>
+         </p>
+         <p xml:id="F0012567.000394">
+            <s>
+               <c>»</c>
+               <w msd="Zv-set" lemma="kaj">Kaj</w>
+               <S/>
+               <w msd="Ggnsde" lemma="delati">delaš</w>
+               <c>?</c>
+               <c>«</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000452">
+            <s>
+               <c>»</c>
+               <w msd="Rsn" lemma="kje">Kje</w>
+               <S/>
+               <w msd="Vp" lemma="pa">pa</w>
+               <c>!</c>
+               <c>«</c>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Ggdd-ez" lemma="nasmehniti">nasmehnila</w>
+               <S/>
+               <w msd="Sozei" lemma="mama">mama</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <c>»</c>
+               <w msd="Zk-sei" lemma="ta">To</w>
+               <S/>
+               <w msd="Gp-pde-n" lemma="biti">boš</w>
+               <S/>
+               <w msd="Ggdd-ez" lemma="storiti">storila</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="ko">ko</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Ggdsde" lemma="vrniti">vrneš</w>
+               <S/>
+               <w msd="Dr" lemma="iz">iz</w>
+               <S/>
+               <w msd="Sozer" lemma="šola">šole</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Vp" lemma="in">In</w>
+               <S/>
+               <w msd="L" lemma="seveda">seveda</w>
+               <S/>
+               <w msd="Gp-pde-n" lemma="biti">boš</w>
+               <S/>
+               <w msd="Ggnd-ez" lemma="morati">morala</w>
+               <S/>
+               <w msd="Sommi" lemma="muc">muci</w>
+               <S/>
+               <w msd="Ggnn" lemma="striči">striči</w>
+               <S/>
+               <w msd="Sommt" lemma="krempelj">kremplje</w>
+               <S/>
+               <w msd="Vp" lemma="in">in</w>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Do" lemma="z">z</w>
+               <S/>
+               <w msd="Zotzeo" lemma="on">njo</w>
+               <S/>
+               <w msd="Ggnn" lemma="igrati">igrati</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Vp" lemma="in">In</w>
+               <S/>
+               <w msd="Ggdn" lemma="kupiti">kupiti</w>
+               <S/>
+               <w msd="Gp-ppm-n" lemma="biti">bomo</w>
+               <S/>
+               <w msd="Ggnd-mm" lemma="morati">morali</w>
+               <S/>
+               <w msd="Soset" lemma="razkužilo">razkužilo</w>
+               <S/>
+               <w msd="Vp" lemma="ter">ter</w>
+               <S/>
+               <w msd="Rsn" lemma="nekaj">nekaj</w>
+               <S/>
+               <w msd="Sommr" lemma="obliž">obližev</w>
+               <c>.</c>
+               <c>«</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000454">
+            <s>
+               <c>»</c>
+               <w msd="Rsn" lemma="zato">Zato</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="ker">ker</w>
+               <S/>
+               <w msd="Gp-pde-n" lemma="biti">boš</w>
+               <S/>
+               <w msd="Sozet" lemma="večina">večino</w>
+               <S/>
+               <w msd="Somer" lemma="čas">časa</w>
+               <S/>
+               <w msd="Pdnzei" lemma="opraskan">opraskana</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vd" lemma="kot">kot</w>
+               <S/>
+               <w msd="Vd" lemma="da">da</w>
+               <S/>
+               <w msd="Ggnsde" lemma="čepeti">čepiš</w>
+               <S/>
+               <w msd="Dr" lemma="sredi">sredi</w>
+               <S/>
+               <w msd="Soser" lemma="trnje">trnja</w>
+               <c>,</c>
+               <c>«</c>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Rsn" lemma="nedolžno">nedolžno</w>
+               <S/>
+               <w msd="Ggdd-ez" lemma="odvrniti">odvrnila</w>
+               <S/>
+               <w msd="Sozei" lemma="mama">mama</w>
+               <c>.</c>
+            </s>
+         </p>
+         <p xml:id="F0012567.000478">
+            <s>
+               <c>»</c>
+               <w msd="Zspzeie" lemma="moj">Moja</w>
+               <S/>
+               <w msd="Sozei" lemma="teta">teta</w>
+               <S/>
+               <w msd="Ggnste-n" lemma="imeti">ima</w>
+               <S/>
+               <w msd="Sometd" lemma="pes">psa</w>
+               <c>,</c>
+               <S/>
+               <w msd="Vp" lemma="pa">pa</w>
+               <S/>
+               <w msd="Zotmed--k" lemma="on">mu</w>
+               <S/>
+               <w msd="Rsn" lemma="nikoli">nikoli</w>
+               <S/>
+               <w msd="L" lemma="ne">ne</w>
+               <S/>
+               <w msd="Ggnste" lemma="puliti">puli</w>
+               <S/>
+               <w msd="Sommr" lemma="krempelj">krempljev</w>
+               <c>!</c>
+               <c>«</c>
+               <S/>
+               <w msd="Zp------k" lemma="se">se</w>
+               <S/>
+               <w msd="Gp-ste-n" lemma="biti">je</w>
+               <S/>
+               <w msd="Rsn" lemma="nenadoma">nenadoma</w>
+               <S/>
+               <w msd="Ggdd-em" lemma="spomniti">spomnil</w>
+               <S/>
+               <w msd="Somei" lemma="zajček">Zajček</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <c>»</c>
+               <w msd="Vp" lemma="in">In</w>
+               <S/>
+               <w msd="Sommr" lemma="kakec">kakcev</w>
+               <S/>
+               <w msd="L" lemma="tudi">tudi</w>
+               <S/>
+               <w msd="L" lemma="ne">ne</w>
+               <S/>
+               <w msd="Ggnste" lemma="čistiti">čisti</w>
+               <S/>
+               <w msd="Do" lemma="za">za</w>
+               <S/>
+               <w msd="Zotmeo" lemma="on">njim</w>
+               <c>.</c>
+               <S/>
+            </s>
+            <s>
+               <w msd="Rsn" lemma="kar">Kar</w>
+               <S/>
+               <w msd="Dt" lemma="na">na</w>
+               <S/>
+               <w msd="Sozet" lemma="zelenica">zelenico</w>
+               <S/>
+               <w msd="Dt" lemma="v">v</w>
+               <S/>
+               <w msd="Sometn" lemma="park">park</w>
+               <S/>
+               <w msd="Zotmet--k" lemma="on">ga</w>
+               <S/>
+               <w msd="Ggnste" lemma="peljati">pelje</w>
+               <c>.</c>
+               <c>«</c>
+            </s>
+         </p>
+      </body>
+   </text>
+</TEI>
